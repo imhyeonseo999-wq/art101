@@ -1,0 +1,36 @@
+.test-div{
+ background: orange;
+ padding: 20px;
+ margin: 20px;
+ border-radius:  20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.test-div h2{
+color:rgb(229, 154, 40); 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+h1, h2, h3, h4 {
+    text-decoration:underline;
+    background-color: aquamarine;
+    padding-left: 20;
+}
+.test-div:hover{
+    background-color: blueviolet;
+}
+
+.special { background-color: rgb(164, 210, 195);}
+
+#house{
+
+    display: flex;
+    flex-direction: horizantal
+
+}
+
+#split{
+    display: flex;
+    flex flex-direction: flex-wrap;
+}
