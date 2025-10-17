@@ -1,0 +1,14 @@
+
+h2{
+    font-style: bold;
+    font-size: 30pt;
+}
+
+.navigation{
+    background-color: rgb(181, 200, 148);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}

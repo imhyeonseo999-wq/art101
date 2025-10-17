@@ -41,3 +41,15 @@ H1{font-family:'AmelinaScript', sans-serif;
   width: 200px;
   
 }
+
+
+#house{
+
+  position: absolute;
+  bottom: 2px;
+  background-color: azure;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
+  
+}
