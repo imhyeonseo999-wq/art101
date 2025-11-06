@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <title>Sheep Detail</title>
   <link rel="stylesheet" href="env03.css">
+  
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="env0101.js" defer></script>
+  
   <style>
     body {
       background-color: #f9f9f9;
@@ -13,17 +18,15 @@
     }
     img {
       width: 80%;
-      
     }
     button {
       margin-top: 30px;
       padding: 10px 20px;
       font-size: 18px;
-  
-      border-color:aquamarine;
+      border: 2px solid aquamarine;
       background-color: #444;
       color: white;
-      
+      cursor: pointer;
     }
     button:hover {
       background-color: #777;
@@ -33,12 +36,17 @@
 <body>
 
   <h1>food for thought</h1>
+  
+
   <p>This is a new page that opens when you click the image.</p>
 
   <img src="image/sheep3.jpeg" alt="Sheep 3">
 
   <br>
   <button onclick="window.location.href='env01proj.html'">⬅ Back to main page</button>
+  
+  <!-- 이 줄 추가! -->
+  <div id="output"></div>
 </body>
- 
 </html>
+
